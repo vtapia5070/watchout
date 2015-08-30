@@ -1,0 +1,55 @@
+/* your beautiful css styling goes here! */
+
+/* Note: an asteroid image is included in this repo.
+Feel free to use it if you like. */
+body {
+  background-color: rgb(235, 235, 235);
+}
+.score{
+  font-family:'Optima',Arial,'Sans Serif';
+  color: black;
+  display: inline-block;
+  width: auto;
+  margin: 20px;
+}
+.scoreboard{
+  color: white; 
+  height: 50px;
+}
+.board {
+  width: 1000px;
+  height: 600px;
+  cursor: pointer;
+}
+div {
+  width: 1000px;
+  margin: 0 auto;
+}
+svg {
+  /*  padding: 100px;*/
+  /*  width: 1000px;
+  height: 600px;*/
+  background-color: rgb(10, 10, 10);
+  border-radius: 10px;
+}
+circle {
+  position: relative;
+
+}
+.enemy {
+  fill: black;
+  stroke: white;
+}
+.highlight {
+  fill: rgb(255, 80, 80);
+  stroke: white;
+  r: 30;
+}
+.player {
+  position: relative;
+  stroke: white;
+}
+path {
+  stroke-dasharray: 2,5;
+  fill: none;
+}
